@@ -1,0 +1,11 @@
+127.0.0.1 - - [21/Feb/2023:12:22:20 +0100] "GET / HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [21/Feb/2023:12:22:21 +0100] "GET /CoronaApp/login.html HTTP/1.1" 200 705
+0:0:0:0:0:0:0:1 - - [21/Feb/2023:12:22:21 +0100] "GET /CoronaApp/login.css HTTP/1.1" 200 960
+0:0:0:0:0:0:0:1 - - [21/Feb/2023:12:23:51 +0100] "POST /CoronaApp/loginVrai HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/Feb/2023:12:23:51 +0100] "GET /CoronaApp/central.html?username=jguimfackjeuna_corona HTTP/1.1" 200 4471
+0:0:0:0:0:0:0:1 - - [21/Feb/2023:12:23:52 +0100] "GET /CoronaApp/central.css HTTP/1.1" 200 1123
+0:0:0:0:0:0:0:1 - - [21/Feb/2023:12:24:06 +0100] "POST /CoronaApp/centralVrai HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/Feb/2023:12:24:06 +0100] "GET /CoronaApp/confirmation.html HTTP/1.1" 200 723
+0:0:0:0:0:0:0:1 - - [21/Feb/2023:12:24:06 +0100] "GET /CoronaApp/confirmation.css HTTP/1.1" 200 1371
+0:0:0:0:0:0:0:1 - - [21/Feb/2023:12:24:12 +0100] "GET /CoronaApp/mailSender HTTP/1.1" 200 81
+0:0:0:0:0:0:0:1 - - [21/Feb/2023:12:24:12 +0100] "GET /favicon.ico HTTP/1.1" 404 684

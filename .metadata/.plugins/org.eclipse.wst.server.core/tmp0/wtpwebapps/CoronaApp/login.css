@@ -1,0 +1,53 @@
+/* Définition des styles pour la page de connexion */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  background-image: url('D:\doddier\Semester3_Ws22-23\SWE3\SWE3\logo.png');
+}
+
+form {
+  margin: 0 auto;
+  max-width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #666;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+a	{
+	text-decoration: none;
+	color: #007bff;
+}
+	a:hover {
+	color: #0062cc;
+
+}
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  margin: 20px 0;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+input[type="submit"]:hover {
+  background-color: #0069d9;
+}

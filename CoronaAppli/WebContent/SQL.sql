@@ -1,0 +1,36 @@
+CREATE TABLE usersApp(
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(50) NOT NULL UNIQUE,
+  first_name VARCHAR(50) NOT NULL,
+  last_name VARCHAR(50) NOT NULL,
+  password VARCHAR(255) NOT NULL,
+  email VARCHAR(100) NOT NULL UNIQUE,
+  city VARCHAR(100) NOT NULL,
+  postal_code VARCHAR(20) NOT NULL
+);
+
+
+CREATE TABLE appointmentsApp (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(50) NOT NULL,
+  first_name VARCHAR(50) NOT NULL,
+  last_name VARCHAR(50) NOT NULL,
+  email VARCHAR(50) NOT NULL,
+  city VARCHAR(50) NOT NULL,
+  postal_code VARCHAR(50) NOT NULL,
+  date1 VARCHAR(50) NOT NULL,
+  heure1 VARCHAR(50) NOT NULL,
+  date2 VARCHAR(50) NOT NULL,
+  heure2 VARCHAR(50) NOT NULL,
+  vaccine VARCHAR(50) NOT NULL
+);
+
+
+
+#Truncate Requete
+
+#TRUNCATE TABLE usersApp;
+#ALTER TABLE usersApp AUTO_INCREMENT = 1;
+
+#TRUNCATE TABLE appointmentsapp;
+#ALTER TABLE appointmentsapp AUTO_INCREMENT = 1;

@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5em;
+  margin: 20px 0;
+}
+
+p {
+  color: #555;
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  font-size: 1.2em;
+  color: #333;
+  margin: 10px 0;
+}
+
+input, select {
+  font-size: 1.2em;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+input[type="submit"] {
+  background-color: #008CBA;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+} 
+
+.logout-form {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #008CBA;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*
+.qrcode {
+  position: absolute;
+  top: 10px;
+  right: 200px;
+  background-color: #008CBA;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+*/

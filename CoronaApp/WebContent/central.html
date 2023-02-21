@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CoronaWebAnwendung</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="central.css">
+    <link rel="icon" type="image/png"
+      href="./logo.png">
+
+  </head>
+  <body>
+    <h1>COVID-19-Impfterminvereinbarung</h1>
+    <p>Willkommen auf der Terminvereinbarungsseite</p>
+    <form action="centralVrai" method="post">
+      <label for="date1">Datum und Uhrzeit des ersten Termins:</label>
+      <input type="date" id="date1" name="date1">
+      <select name="heure1">
+        <option value="">Uhrzeit auswählen</option>
+        <option value="08:00">08:00</option>
+        <option value="08:10">08:10</option>
+        <option value="08:20">08:20</option>
+        <option value="08:30">08:30</option>
+        <option value="08:40">08:40</option>
+        <option value="08:50">08:50</option>
+        <option value="09:00">09:00</option>
+        <option value="09:10">09:10</option>
+        <option value="09:20">09:20</option>
+        <option value="09:30">09:30</option>
+        <option value="09:40">09:40</option>
+        <option value="09:50">09:50</option>
+        <option value="10:00">10:00</option>
+        <option value="10:10">10:10</option>
+        <option value="10:20">10:20</option>
+        <option value="10:30">10:30</option>
+        <option value="10:40">10:40</option>
+        <option value="10:50">10:50</option>
+        <option value="11:00">11:00</option>
+        <option value="11:10">11:10</option>
+        <option value="11:20">11:20</option>
+        <option value="11:30">11:30</option>
+        <option value="11:40">11:40</option>
+        <option value="11:50">11:50</option>
+        <option value="12:00">12:00</option>
+        <option value="12:10">12:10</option>
+        <option value="12:20">12:20</option>
+        <option value="12:30">12:30</option>
+        <option value="12:40">12:40</option>
+        <option value="12:50">12:50</option>
+        <option value="13:00">13:00</option>
+      </select>
+
+
+      <br><br>
+
+      <label for="date2">Datum und Uhrzeit des zweiten Termins:</label>
+      <input type="date" id="date2" name="date2">
+      <select name="heure2">
+        <option value="">Uhrzeit auswählen</option>
+        <option value="08:00">08:00</option>
+        <option value="08:10">08:10</option>
+        <option value="08:20">08:20</option>
+        <option value="08:30">08:30</option>
+        <option value="08:40">08:40</option>
+        <option value="08:50">08:50</option>
+        <option value="09:00">09:00</option>
+        <option value="09:10">09:10</option>
+        <option value="09:20">09:20</option>
+        <option value="09:30">09:30</option>
+        <option value="09:40">09:40</option>
+        <option value="09:50">09:50</option>
+        <option value="10:00">10:00</option>
+        <option value="10:10">10:10</option>
+        <option value="10:20">10:20</option>
+        <option value="10:30">10:30</option>
+        <option value="10:40">10:40</option>
+        <option value="10:50">10:50</option>
+        <option value="11:00">11:00</option>
+        <option value="11:10">11:10</option>
+        <option value="11:20">11:20</option>
+        <option value="11:30">11:30</option>
+        <option value="11:40">11:40</option>
+        <option value="11:50">11:50</option>
+        <option value="12:00">12:00</option>
+        <option value="12:10">12:10</option>
+        <option value="12:20">12:20</option>
+        <option value="12:30">12:30</option>
+        <option value="12:40">12:40</option>
+        <option value="12:50">12:50</option>
+        <option value="13:00">13:00</option>
+      </select>
+
+
+      <br><br>
+
+      <label for="vaccine">Gewünschte Impfstoffmarke:</label>
+      <select id="vaccine" name="vaccine">
+        <option value="">Impfstoffmarke auswählen</option>
+        <option value="Impfstoff 1">Impstoff 1</option>
+        <option value="Impstoff 2">Impfstoff 2</option>
+        <option value="Impfstoff 3">Impfstoff 3</option>
+      </select>
+
+      <br><br>
+
+      <input type="submit" value="Termin Buchen">
+    </form>
+    
+   <!-- <form class="qrcode" action="qrcode" method="post">
+      <input type="submit" value="QR-Code">
+    </form> --> 
+
+    <form class="logout-form" action="logout" method="post">
+      <input type="submit" value="Abmelden">
+    </form>
+    
+
+  </body>
+</html>
